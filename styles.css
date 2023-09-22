@@ -6,6 +6,7 @@ body{
 p{
     color: #14110E;
     text-align: center;
+    margin: 20px;
 }
 
 h1{
@@ -33,7 +34,7 @@ footer{
     text-align: center;
     background-color: #efefef;
     padding: 25px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -43,8 +44,10 @@ footer{
     height: auto;
 }
 
-img{
-    float:right;
+.emptyspace{
+width: 500x;
+height: 500px;
+
 }
 
 .navtext{
@@ -52,10 +55,24 @@ text-decoration: none;
 font-size: larger;
 margin-top: 10px;
 margin: 33px;
-color: #ff4343;
+color: #ff4c4c;
 
 }
 
 .navbar{
     display: inline-block;
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+.container {
+
+
+}
+
+.mydesc{
+    flex: 1;
 }
