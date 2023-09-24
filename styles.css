@@ -25,18 +25,7 @@ h3{
 }
 
 header{
-    color: #14110E;
     text-align: center;
-}
-
-footer{
-    color: #14110E;
-    text-align: center;
-    background-color: #efefef;
-    padding: 25px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 .resizable-image{
@@ -53,16 +42,35 @@ height: 500px;
 .navtext{
 text-decoration: none;
 font-size: larger;
+font-weight: 500;
 margin-top: 10px;
-margin: 33px;
+margin: 15px;
 color: #ff4c4c;
+background-color: #ffffff;
 
 }
 
-.navbar{
+.navbar li{
     display: inline-block;
 }
 
+.navbar ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar a{
+
+    text-decoration: none;
+    color: #ff4c4c;
+    width: 100px;
+    display: block;
+}
+
+  
 img{
     height: 300px;
     width: auto;
@@ -75,4 +83,34 @@ img{
 
 .mydesc{
     flex: 1;
+}
+
+footer{
+    color: #000000;
+    
+    font-size: large;
+    background-color: #cecece;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    
+
+}
+
+.footer {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footertext{
+    
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    display: inline-block;
+    padding: 100px;
+
 }
