@@ -134,22 +134,25 @@ footer{
     color: rgb(80, 142, 249);
 }
 
-.buttons1 a, li{
+.buttons1{
     text-decoration: none;
     list-style: none;
-    display: inline-block;
-    justify-content: space-around;
-    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .buttons1 img{
-    width: 100%;
+    width: 45%;
     height: auto;
     
 }
 
-.lbutton {
-    width: 20%;
-    height: auto;
 
+.lbutton {
+
+}
+
+.rbutton{
+    
+    
 }
