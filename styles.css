@@ -35,7 +35,10 @@ header{
     text-align: center;
 }
 
-.mylogo{
+.myphoto{
+    width: 40%;
+    height: auto;
+    text-align: center;
 }
 
 .jklogo{
@@ -70,7 +73,7 @@ header{
 }
 
 .navtext a:hover{
-    color: #fd4f4ffa;
+    color: #c73131fa;
 }
 
 .navbar li{
@@ -119,10 +122,16 @@ margin-top: 5%;
     color: #ffffff;
 }
 
-.mydesc{
+.mydesc p{
     text-align: center;
     color: #14110E;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0;
+    margin: 2%;
 }
+
+
 
 .xp h1{
     color: #14110E;
@@ -143,6 +152,28 @@ margin-top: 5%;
 .more h1{
     margin-top: 5%;
     color: #14110E;
+}
+
+.more{
+    background-color: #303030;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+
+.more p, h1{
+    color: #ffffff;
+
+}
+
+
+
+#ai{
+    color:#ff4c4c;
+}
+
+#more{
+    color: #ffffff;
 }
 
 footer{
@@ -175,7 +206,7 @@ footer{
 }
 
 .footertext a:hover{
-    color: rgb(80, 142, 249);
+    color: #ff4c4c;
 }
 
 .footer2{
@@ -231,17 +262,24 @@ footer{
 }
 
 .buttons1 img{
-    width: 45%;
+    width: 100%;
     height: auto;
     
 }
 
-
-.lbutton {
-
+.buttonlink{
+    width: 4%;
+    height: auto;
 }
 
-.rbutton{
-    
-    
+.ai img{
+    width: 18%;
+    height: auto;
+}
+
+.ai h1{
+    font-weight: 700;
+    color: #c44545;
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
