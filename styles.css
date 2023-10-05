@@ -36,7 +36,7 @@ header{
 }
 
 .myphoto{
-    width: 40%;
+    width: 35%;
     height: auto;
     text-align: center;
 }
@@ -107,7 +107,7 @@ img{
 
 .container {
 text-align: center;
-margin-top: 5%;
+
 
 }
 
@@ -115,7 +115,7 @@ margin-top: 5%;
     background-color: #303030;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: 10%;
+    margin-top: 0;
 }
 
 .aboutme p,h2,h1{
@@ -129,6 +129,7 @@ margin-top: 5%;
     font-size: 20px;
     padding: 0;
     margin: 2%;
+    margin-top: 5%;
 }
 
 
@@ -138,7 +139,7 @@ margin-top: 5%;
 }
 
 .xp img{
-    width: 20%;
+    width: 17%;
     height: auto;
     padding-bottom: 1%;
 }
@@ -156,7 +157,7 @@ margin-top: 5%;
 
 .more{
     background-color: #303030;
-    padding-top: 30px;
+    padding-top: 5px;
     padding-bottom: 30px;
    
 }
@@ -255,21 +256,29 @@ footer{
 
 }
 .buttons1{
-    text-decoration: none;
     list-style: none;
-    display: flex;
-    justify-content: center;
 }
 
-.buttons1 img{
-    width: 100%;
-    height: auto;
+.buttons1 a{
+    width: 20%;
+    height: 40%;
+    text-decoration: none;
+    color: #14110E;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.buttoncv a, p{
+    color:#14110E;
+    font-weight: 600;
+
     
 }
 
-.buttonlink{
-    width: 4%;
-    height: auto;
+.buttoncv{
+    text-decoration: none;
+    list-style: none;
 }
 
 .ai img{
