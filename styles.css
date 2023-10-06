@@ -98,7 +98,6 @@ header{
     display: block;
 }
 
-  
 img{
     height: 600px;
     width: auto;
@@ -106,7 +105,7 @@ img{
     
 }
 
-.aboutme {
+.aboutme{
     background-color: #303030;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -126,8 +125,6 @@ img{
     margin: 2%;
     margin-top: 5%;
 }
-
-
 
 .xp h1{
     color: #14110E;
@@ -162,8 +159,6 @@ img{
 
 }
 
-
-
 #ai{
     color:#ff4c4c;
 }
@@ -178,6 +173,7 @@ footer{
     background-color: #303030;
     bottom: 0;
     height: 250px;
+    text-align: center;
 }
 
 .footer{
@@ -187,7 +183,7 @@ footer{
     justify-content: center;
 }
 
-.footertext {
+.footertext{
     
     text-decoration: none;
     list-style: none;
@@ -205,11 +201,15 @@ footer{
     color: #ff4c4c;
 }
 
+.footerlist{
+    padding: 0;
+}
+
 .footer2{
     background-color: #ffffff;
 }
 
-.footertxt2 {
+.footertxt2{
     text-align: center;
     text-decoration: none;
     
@@ -262,7 +262,6 @@ footer{
     font-weight: 500;
     font-size: 20px;
 }
-
 
 .buttoncv a, p{
     color:#14110E;
