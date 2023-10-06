@@ -254,8 +254,8 @@ footer{
     list-style: none;
 }
 
-.buttons1 a{
-    width: 20%;
+.buttons1 button{
+    width: 25%;
     height: 40%;
     text-decoration: none;
     color: #14110E;
